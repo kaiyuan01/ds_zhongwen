@@ -1,6 +1,6 @@
 # baseURL = 'https://kaiyuan01.github.io/ds_zhongwen/'
 # languageCode = 'en-US'
 languageCode = 'zh-CN'
-title = 'My New Hugo Site'
+title = 'Dao Site'
 theme = 'ananke'
 
