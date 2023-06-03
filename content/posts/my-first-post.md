@@ -13,4 +13,4 @@ Visit the [DengSoft](https://DengSoft.com) website!
 
 {{< youtube w7Ft2ymGmfc >}}
 
-{{< wpd tag="黄庭内景经" >}}
+{{< wp tag="黄庭内景经" >}}
