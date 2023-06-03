@@ -11,3 +11,6 @@ This is **bold** text, and this is *emphasized* text.
 Visit the [DengSoft](https://DengSoft.com) website!
 
 
+{{< youtube w7Ft2ymGmfc >}}
+
+{{< wpd tag="黄庭内景经" >}}
