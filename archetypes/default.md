@@ -9,6 +9,9 @@ draft: true
 
 
 
+<aside>
+        {{ .TableOfContents }}
+</aside>
 
 
 <ul>
