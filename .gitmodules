@@ -3,4 +3,4 @@
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke
 [submodule "themes/hyde"]
 	path = themes/ananke
-	url = https://github.com/spf13/hydegit
+	url = https://github.com/spf13/hyde
