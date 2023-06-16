@@ -2,5 +2,5 @@
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke
 [submodule "themes/hyde"]
-	path = themes/ananke
+	path = themes/hyde
 	url = https://github.com/spf13/hyde
