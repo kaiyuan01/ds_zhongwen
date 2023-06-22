@@ -4,5 +4,5 @@ languageCode = 'zh-CN'
 title = 'Dao Site'
 #theme = 'ananke'
 theme = 'hyde'
-
+theme = 'ananke'
 
