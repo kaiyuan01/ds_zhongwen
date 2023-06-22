@@ -1,2 +1,15 @@
-
-static/css/test-module.css
+<div style="display: flex; width: 272px;">
+    <div
+        {{ if isset . "layoutClass"}}class="{{ .layoutClass }}"{{ end }}
+    >
+        <img src="/css/{{ .datatypeImg }}" />
+        <a href="#"
+            {{ if isset . "buttonClass"}}class="{{ .buttonClass }}"{{ end }}
+        > 
+            {{ if isset . "buttonText"}} {{ .buttonText }} {{ end }}                    
+                    
+        </a>
+        
+    </div>
+    <img src="/css/{{ .addlImg }}" style="text-align: right; padding-left: 0px; align-items: end;"/>
+</div>
