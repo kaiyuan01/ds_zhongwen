@@ -1,0 +1,45 @@
+{{ if isset .Params "img" }}
+  <div class="card{{ .Params.smallImg }}">
+        <img src="/css/{{.Params.img}}" style="display: block;   margin-left: auto; margin-right: auto;" 
+        {{ if isset . "imgHeight" }}
+            height="{{ .Params.imgHeight }}" 
+        {{end}}
+        />
+{{ else }}
+  <div class="complex-card-no-img">
+{{end}} 
+        <div >
+            <!-- img src="/css/{{.Params.datatypeImg}}" style="display: flexbox; margin-left: auto; margin-right: auto;" />{{ .Params.datatype }} -->
+            {{ partial "button.html" (dict "context" . "addlImg" .Params.cartImg "datatypeImg" .Params.datatypeImg "buttonText" .Params.datatype "layoutClass" .Params.layoutClass "buttonClass" .Params.buttonClass ) }}
+            
+            <div class="domain-text"> {{ .Params.domains }} <div class="underlined">{{ .Params.allDomains }} </div></div>
+            <hr style ="width:98%;" >
+            
+            <div class="complex-card-content0">
+                <div class = "complex-card-title">
+                    {{ .Params.title }}
+                </div>
+                <div class = "complex-card-description"
+                    style = "padding-top: 5px !important; height:auto"
+                >
+                    <p>
+                        {{ .Params.description }}
+                    </p>
+                </div>
+                
+                <div class = "complex-card-meta-status">
+                    <div class="metadata-score"> <img src="/css/icon-metadata-score.png" style="text-align: left; padding-left: 1px;"/>
+                        <div class="padding-left">{{ .Params.metadataScoreLabel }}</div> <div class="lighter-text">{{ .Params.metadataScoreValue }} </div> </div>
+                    
+                    <div class="status"> {{ .Params.status }} </div>
+                </div>
+            </div>
+            <br class="padding-top">&nbsp;</br>
+            <div class = "complex-card-link"
+            >
+                <a href="#"
+                    class="btn-txt" > More details &nbsp;  
+                </a>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,386 @@
+
+.grayed-text {
+    font-family: 'CVS Health Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Grays/Gray */
+
+    color: #767676;
+}
+
+.complex-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 16px 16px 0px;
+    gap: 8px; 
+    width: 296px;
+    height: 1106px;  
+    border-radius: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.complex-card-title {
+    width: 220px;
+    height: 29px;
+    font-family: 'CVS Health Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    color: #262626;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.complex-card-no-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+ 
+    background: #FFFFFF;
+    box-shadow: 0px 1.5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    float:left;
+    margin-right: 30px;
+
+    /* card-product */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 272px;
+    
+    background: #FFFFFF;
+    /* CVS Drop Shadow height: 364px; */
+
+    box-shadow: 0px 1.5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.complex-card-meta-status {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+
+    width: 250px;
+
+    background: rgba(102, 202, 187, 0.3);
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.metadata-score {
+    height: 16px;
+
+    font-family: 'CVS Health Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.padding-left {
+    padding-left: 5px;
+}
+
+.padding-top {
+    padding-top: 20px;
+}
+.lighter-text {
+    font-family: CVS Health Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    padding-left: 3px;
+}
+
+.status {
+    display: flexbox;
+
+    height: 18px;
+
+    font-family: 'CVS Health Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px 
+    display: flex;*/
+
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #575757;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    padding-left: 22px;
+}
+
+.complex-card-link {
+    /* button-outline */
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    width: 260px;
+    height: 30px;
+
+    /* Core/Red */
+    border: 1px solid #CC0000;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    padding-top: 1px;
+}
+
+.btn-txt {
+    /* Large  width: 94px;*/
+    height: 24px;
+
+    /* M/Button */
+
+    font-family: 'CVS Health Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 24px; 
+    identical to box height, or 150% */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    /* Core/Red */
+
+    color: #CC0000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    padding-top: -1px;
+}
+
+.complex-card-description {
+    width: 272px;
+    height: 24px; 
+    font-family: 'CVS Health Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #262626;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+    padding-top: 20px;
+}
+
+.domain-text {
+    height: 18px;
+
+    /* XS/Smallest */
+    font-family: 'CVS Health Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    /* Grays/Gray */
+    color: #767676;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    padding-top: 5px;
+}
+
+.underlined {
+    text-decoration-line: underline;
+    padding-left: 3px;
+}
+
+.gray-background {
+    width: 100%;  /* 1439px; */
+    height: auto; /* 816px; */
+
+    /* Grays/Background */
+    background: #F7F7F7;
+}
+
+.light-blue-background {
+    width: 100%; 
+    /*1439px;
+    height: 836px; */
+    height: auto;
+
+    /* Transparency/Blue Dark (15%) */
+    background: rgba(9, 167, 227, 0.15);
+}
+
+.red-btn-layout {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 8px;
+
+    width: 120px;
+    height: 44px;
+
+    /* Theme/Action (Emphasized)
+
+    https://cvsdigital.atlassian.net/l/c/SNHDmYe6
+    */
+    background: #CC0000;
+    /* Theme/Action (Emphasized)
+
+    https://cvsdigital.atlassian.net/l/c/SNHDmYe6
+    */
+    border: 2px solid #CC0000;
+    border-radius: 10px;
+}
+
+.white-btn-txt {
+    width: 96px;
+    height: 24px;
+
+    font-family: 'CVS Health Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+
+    /* Theme/Action (Reversed) */
+
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.datatype-layout {
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 8px 0px 4px;
+    gap: 4px;
+
+    width: 86px;
+    height: 24px;
+
+    /* Grays/Gray Ultralight */
+    background: #F2F2F2;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    text-align: left;
+}
+
+.datatype-btn {
+    width: 54px;
+    height: 21px;
+
+    /* S/Small */
+    font-family: 'CVS Health Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    display: flex;
+    align-items: center;
+
+    /* Core/Black */
+    color: #262626;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
