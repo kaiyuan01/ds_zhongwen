@@ -1,1 +1,10 @@
-static/css/test-module.css
+<div
+    {{ if .Get "layout-class"}}class="{{ .Get "layout-class" }}"{{ end }}
+>
+    <a href="#"
+        {{ if .Get "button-class"}}class="{{ .Get "button-class" }}"{{ end }}
+    > 
+        {{ if .Get "button-text"}} {{ .Get "button-text" }} {{ end }}                    
+                   
+    </a>
+</div>
